@@ -5,8 +5,8 @@ Python 3.10+
 CUDA-enabled GPU recommended
 Clone and Install:
 
-git clone https://github.com/Kheem-Dh/RadiologyReportGen-AI.git
-cd RadiologyReportGen-AI
+git clone https://github.com/anubhakapur/Automatic-Radiology-Report-Generator.git
+cd Automatic-Radiology-Report-Generator
 pip install -r requirements.txt
 ⚡ Quickstart Usage
 Preprocess Data
