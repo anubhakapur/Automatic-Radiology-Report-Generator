@@ -33,8 +33,8 @@ vit = get_vit_model(device)
 # ----------------------------
 # Streamlit UI
 # ----------------------------
-st.set_page_config(page_title="Radiology Report Generator", layout="wide")
-st.title("AI Radiology Report Generator")
+st.set_page_config(page_title="Automatic Radiology Report Generator", layout="wide")
+st.title("Automatic Radiology Report Generator")
 
 uploaded_file = st.file_uploader("Upload X-ray Image", type=["png", "jpg", "jpeg"])
 
