@@ -79,6 +79,6 @@ def extract_features(model, image_paths, device='cpu', batch_size=16, save_path=
 
     if save_path:
         np.save(save_path, features)
-        print(f"✅ Saved features to {save_path}")
+        print(f" Saved features to {save_path}")
 
     return features
