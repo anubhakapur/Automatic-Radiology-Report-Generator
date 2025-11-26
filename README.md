@@ -19,35 +19,35 @@ Included: PNG images, indiana_reports.csv, indiana_projections.csv
 Data Path: Place all data inside /data/ (see below).
 Privacy: Fully anonymized, public research dataset.
 
-Steps to run:
-1)git clone https://github.com/anubhakpur/Automatic-Radiology-Report-Generator.git
-cd RadiologyReportGen-AI
+Steps to run:        
+1)git clone https://github.com/anubhakpur/Automatic-Radiology-Report-Generator.git                       
+cd Automatic-Radiology-Report-Generator                      
 pip install -r requirements.txt
 
-2)python scripts/preprocess_data.py
-3)python scripts/extract_features.py
-4)python scripts/train_gpt2.py
-5)python scripts/generate_report.py
-6)python scripts/evaluate.py
+2)python -m scripts.preprocess_data            
+3)python -m scripts.extract_features          
+4)python -m scripts.train_gpt2          
+5)python -m scripts.generate_report          
+6)python -m scripts.evaluate          
 
-Project Structure:
-RadiologyReportGen-AI/
-├── data/                  # Place your dataset files and images here
-│   ├── indiana_reports.csv
-│   ├── indiana_projections.csv
-│   └── images/
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_extraction.py
-│   ├── report_generation.py
-│   ├── integration.py
-│   ├── evaluation.py
-│   └── utils.py
-├── scripts/
-│   ├── preprocess_data.py
-│   ├── extract_features.py
-│   ├── train_gpt2.py
-│   ├── generate_report.py
-│   └── evaluate.py
-├── requirements.txt
-├── README.md
+Project Structure:        
+Automatic-Radiology-Report-Generator/      
+├── data/                  # Place your dataset files and images here      
+│       ├── indiana_reports.csv      
+│       ├── indiana_projections.csv      
+│       └── images/      
+├── src/        
+│       ├── data_preprocessing.py      
+│       ├── feature_extraction.py        
+│       ├── report_generation.py        
+│       ├── integration.py        
+│       ├── evaluation.py        
+│       └── utils.py        
+├── scripts/        
+│       ├── preprocess_data.py        
+│       ├── extract_features.py      
+│       ├── train_gpt2.py        
+│       ├── generate_report.py      
+│       └── evaluate.py        
+├── requirements.txt        
+├── README.md        
