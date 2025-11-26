@@ -14,10 +14,10 @@ A fine-tuned DistilGPT-2 generator for producing full diagnostic reports
 A complete evaluation suite and a user-friendly inference interface
 
 Dataset:
-Source: Indiana University Chest X-ray OpenI
-Included: PNG images, indiana_reports.csv, indiana_projections.csv
-Data Path: Place all data inside /data/ (see below).
-Privacy: Fully anonymized, public research dataset.
+Source: Indiana University Chest X-ray OpenI      
+Included: PNG images, indiana_reports.csv, indiana_projections.csv      
+Data Path: Place all data inside /data/ (see below).      
+Privacy: Fully anonymized, public research dataset.      
 
 Steps to run:        
 1)git clone https://github.com/anubhakpur/Automatic-Radiology-Report-Generator.git                       
@@ -25,7 +25,7 @@ cd Automatic-Radiology-Report-Generator
 pip install -r requirements.txt
 
 2)python -m scripts.preprocess_data            
-3)python -m scripts.extract_features          
+3)python -m scripts.extract_vit_features          
 4)python -m scripts.train_gpt2          
 5)python -m scripts.generate_report          
 6)python -m scripts.evaluate          
